@@ -10,6 +10,13 @@ namespace VidlyThree {
         public static void RegisterRoutes(RouteCollection routes) {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            //Custom route
+            //routes.MapRoute(
+            //    "MoviesByReleaseDate",
+            //    "movies/Released/{year}/{month}",
+            //    new { controller = "Movies", action = "ByReleaseDate" },
+            //    new { year = @"\d{4}", month=@"\d{2}" });
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
