@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Vidly.Models;
-using Vidly.ViewModels;
+using VidlyThree.Models;
+using VidlyThree.ViewModels;
 
-namespace Vidly.Controllers
+namespace VidlyThree.Controllers
 {
     public class MoviesController : Controller {
         // GET: Movies/Random

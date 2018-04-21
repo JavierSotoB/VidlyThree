@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using Vidly.Models;
+using VidlyThree.Models;
 
-namespace Vidly.ViewModels {
+namespace VidlyThree.ViewModels {
     public class RandomViewModel {
         public List<Customer> Customers { get; set; }
         public Movie Movie { get; set; }
